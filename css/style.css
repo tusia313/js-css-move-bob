@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+    display: flex;
+    height: 95vh;
+    justify-content: center ;
+    align-items: end;
+}
+
+.bob-container {
+    background-color: blanchedalmond;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.eyes-container {
+    display: flex;
+    width: 12rem;
+    justify-content: space-between;
+}
+
+.eye-container {
+    position: relative;
+    top: 4rem;
+    left: 3.5rem;
+    background-color: whitesmoke;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.dot {
+    background-color: black;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.right {
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+}
+
+.left {
+    position: relative;
+    top: 2rem;
+    left: 0rem;
+}
+
