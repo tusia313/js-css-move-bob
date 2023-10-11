@@ -10,13 +10,16 @@ body {
     width: 20rem;
     border-radius: 50%;
     position: absolute;
-    bottom: 2rem;
-    left: 2rem;
+    bottom: 50px;
+    left: 50px;
 }
 
 .eyes-container {
-    display: flex;
-    
+    display: flex;  
+}
+
+.rotate {
+    flex-direction: row-reverse;
 }
 
 .eye {

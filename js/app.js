@@ -1,22 +1,40 @@
-// const movingBob = document.getElementById('bob-container')
-const dotElements = document.querySelectorAll('.dot')
+const bob = document.querySelector('.bob')
+const eyes = document.querySelectorAll('.eyes-container')
 
-console.log(dotElements)
+let left = 50
 
-function changeClass(e) {
-    dotElements.classList.remove('dot-right', 'dot-left')
-    const keyArrow = e.key
-    if (keyArrow === 'ArrowLeft') {
-        dotElements.classList.add('dot-left')
-    }
-    if (keyArrow === 'ArrowRight') {
-        dotElements.classList.add('dot-right')
-    }
+function moveRight() {
+    left += 50
+    bob.style.left = left +'px'
+    console.log(left)
 }
 
-dotElements.forEach(dotElement =>
-    dotElement.addEventListener('keydown', changeClass)
-    )
+function moveLeft() {
+    left -= 50
+    bob.style.left = left +'px'
+    console.log(left)
+}
+
+function rotateEyes() { 
+    eyes.classList.add('.rotate')
+}
+
+function moveBob(e) {
+    const keyArrow = e.key
+    console.log(keyArrow)
+
+        if (keyArrow === 'ArrowRight') {
+            moveRight()
+        }
+        if (keyArrow === 'ArrowLeft') {
+            rotateEyes()
+            moveLeft()
+        }
+}
+
+document.addEventListener('keydown', moveBob)
+
+
 
 
 
