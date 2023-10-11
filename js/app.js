@@ -4,13 +4,13 @@ const dotElements = document.querySelectorAll('.dot')
 console.log(dotElements)
 
 function changeClass(e) {
-    dotElements.classList.remove('right', 'left')
+    dotElements.classList.remove('dot-right', 'dot-left')
     const keyArrow = e.key
     if (keyArrow === 'ArrowLeft') {
-        dotElements.classList.add('left')
+        dotElements.classList.add('dot-left')
     }
     if (keyArrow === 'ArrowRight') {
-        dotElements.classList.add('right')
+        dotElements.classList.add('dot-right')
     }
 }
 
