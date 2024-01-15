@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: violet;
+    background-color: rgb(192,122,233);
 }
 
 .bob {
@@ -23,7 +23,7 @@ body {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
-    /* margin: 0.1rem; */
+    /* git */
     position: relative;
     top: 4rem;
     left: 3.5rem;
