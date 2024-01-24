@@ -4,17 +4,16 @@
 
 const bob = document.querySelector('.bob')
 const eye = document.querySelector('.eye')
-
-let left = 50
+let left = 100
 
 function moveRight(){
+    left += 100
     bob.style.left = left + 'px'
-    left += 50
 }
 
 function moveLeft(){
-    bob.style.left = -left + 'px'
-    left += 50
+    left -= 100
+    bob.style.left = left + 'px'
 }
 
 function moveBob(e) {
