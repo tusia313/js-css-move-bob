@@ -2,7 +2,7 @@
 
 ## 💾 What's it about?
 
-Have You ever played in Packman? I have :D And It was such a fun things to almost (a bit of an exaggeration, I know) recrate it and thus practice JavaScript on its basics. 
+Have You ever played in Packman? I have :D Trying to recrate it and thus practice JavaScript (mostly key properties) on its basics. 
 Love it! 🥰
 
 ## 💾 First look 
